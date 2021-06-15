@@ -6,11 +6,13 @@
 <style>
 body {
   color: black;
+  font-family: "Times New Roman", Times, serif;
   font-size: 15px;
 }
 
 h1 {
     color: black;
+    font-family: "Times New Roman", Times, serif;
     font-size: 15px;
 }
 </style>
@@ -19,8 +21,8 @@ h1 {
 
 
 <form id="frm1">
-    First name: <input type="text" name="fname" value="" class="input1" ><br>
-    Last name: <input type="text" name="lname" value="" class="input2" ><br><br>
+    First name: <input type="text" name="fname" value=""><br>
+    Last name: <input type="text" name="lname" value=""><br><br>
   </form>
 
   
@@ -30,34 +32,15 @@ h1 {
   
 
   
-  <button onclick="submitFuncton()" class="btn">Submit</button>
+  <button onclick="submitFuncton()">Submit</button>
   
+
   
   <p id="checkInfo"></p>
   
-  <script>
-   function submitFuncton() {
-    var x = document.getElementById("frm1");
-    var text = "";
-    var i;
-    for (i = 0; i < x.length ;i++) {
-      text += x.elements[i].value + "<br>";
-    }
-    document.getElementById("checkInfo").innerHTML = text + input.name + "Is this all your information?";
-  }
-
-
-  const btn = document.querySelector(".btn");
-
-const input1 = document.querySelector(".input1");
-const input2 = document.querySelector(".input2");
-
-btn.addEventListener("click", () => {
-  input1.value = "input";
-  input2.value = "input";
-});
-
-  </script>
+  
+  <script src="clickfunction.js"></script>
+  
   
   </body>
   </html>

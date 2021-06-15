@@ -2,7 +2,7 @@
 <body>
 <style>
 body {
-  color: blue;
+  color: black;
   font-size: 15px;
 }
 
@@ -15,7 +15,7 @@ h1 {
 <h1 style="font-family:verdana">Medical Forms</h1>
 
 
-<form id="frm1" action="action_page.js">
+<form id="frm1">
     First name: <input type="text" name="fname" value=""><br>
     Last name: <input type="text" name="lname" value=""><br><br>
   </form>
@@ -30,7 +30,7 @@ h1 {
   <button onclick="submitFuncton()">Submit</button>
   
   
-  <p id="demo"></p>
+  <p id="checkInfo"></p>
   
   <script>
    function submitFuncton() {
@@ -40,8 +40,7 @@ h1 {
     for (i = 0; i < x.length ;i++) {
       text += x.elements[i].value + "<br>";
     }
-    document.getElementById("Is this all your information? Make sure it is written properly.")
-    document.getElementById("demo").innerHTML = text;
+    document.getElementById("checkInfo").innerHTML = text + "Is this all your information?";
   }
   </script>
   

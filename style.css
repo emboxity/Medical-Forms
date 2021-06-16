@@ -7,7 +7,25 @@ html, body {
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    }
+}
+#frm1{
+    width: 500px;
+    clear: both;
+    position:relative;
+}
+#frm1 input {
+    width: 100%;
+    clear: both;
+    display:block;
+    position:relative;
+}
+#checkInfo{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+  
 p{
     color: black;
     font-family: Arial, Helvetica, sans-serif;

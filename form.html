@@ -1,35 +1,33 @@
 <!-- Creator: Embox -->
 <!-- Version: N/A -->
 
-<!DOCTYPE html>
 <html>
-<body>
+  <head><link rel="stylesheet" href="style.css"></head>
+  <body>
+    
 
-<h1 id="title">Medical Forms</h1>
-<link rel="stylesheet" href="style.css">
+    <h1 id="title">Medical Forms</h1>
 
+    <form id="frm1">
+      First name:
+      <input type="text" name="fname" value="" class="first-name" /><br/>
+      Last name:
+      <input type="text" name="lname" value="" class="last-name" /><br>
+      Age:
+      <input type="number" name="uage" value="" class="user-age" /><br/>
+    </form>
 
-<form id="frm1">
-    First name: <input type="text" name="fname" value=""><br>
-    Last name: <input type="text" name="lname" value=""><br><br>
-  </form>
+    <p>Click "Submit" When you successfully enter all the information accurately.</p>
 
-  
+    <button onclick="submitFuncton()" class="button">Submit</button>
 
-  <p>Click "Submit" When you successfully enter all site inputs.</p>
+    <div class="info">
+      <p class="first"></p>
+      <p class="last"></p>
+      <p class = "userAgeInfo"></p>
+      <p id="checkInfo"></p>
+    </div>
 
-  
-
-  
-  <button onclick="submitFuncton()">Submit</button>
-  
-
-  
-  <p id="checkInfo"></p>
-  
-  
-  <script src="clickfunction.js"></script>
-  
-  
+    <script src="clickfunction.js"></script>
   </body>
-  </html>
+</html>

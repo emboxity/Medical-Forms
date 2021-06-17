@@ -8,22 +8,22 @@
     <h1 id="title">Medical Forms</h1>
 
     <form id="frm1">
-      First name<span style="color:#FF0066">*</span>:
+      First name<span style="color:#FF0000">*</span>:
       <input type="text" name="fname" value="" class="first-name" /><br/>
-      Last name<span style="color:#ecc8d6">*</span>:
+      Last name<span style="color:#FF0000">*</span>:
       <input type="text" name="lname" value="" class="last-name" /><br>
-      Age<span style="color:#FF0066">*</span>:
+      Age<span style="color:#FF0000">*</span>:
       <input type="number" name="uage" value="" class="user-age" /><br/>
-      Sex<span style="color:#FF0066">*</span>:
+      Sex<span style="color:#FF0000">*</span>:
       <input type="text" name="usex" value="Male / Female / Other" class = "user-sex" /><br/>
-      Email<span style="color:#FF0066">*</span>:
+      Email<span style="color:#FF0000">*</span>:
       <input type ="text" name="uemail" value = "example@example.com" class = user-email /><br/>
-      Phone Number<span style="color:#FF0066">*</span>:
+      Phone Number<span style="color:#FF0000">*</span>:
       <input type = "text" name="unumber" value="XXX-XXX-XXXX" class = user-number /><br/>
     </form>
 
     <p>Click "Submit" When you successfully enter all the information accurately.</p>
-    <p>A red star like this <span style="color:#FF0066">*</span> indicates that the field is required. </p>
+    <p>A red star like this <span style="color:#FF0000">*</span> indicates that the field is required. </p>
 
     <button onclick="submitFuncton()" class="button">Submit</button>
 
@@ -34,11 +34,22 @@
       <p class = "userSexInfo"></p>
       <p class = "email"></p>
       <p class = "number"></p>
-      <p id="checkInfo"></p>
+      <p id="checkInfo"></p><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
       
     </div>
 
     <script src="clickfunction.js"></script>
-    <h1 id="bottom">Most questions are required, however some are not required if the patient feels uncomftorable with sharing the information. It is heavily encouraged to complete the full form because they are necessary for the diagnosis.</h1>
+    
+    <div class = "footer">Most questions are required, however some are not required if the patient does not desire to share the information. It is heavily encouraged to complete the full form because they are necessary for the diagnosis.<div>
+    
+    <div class = "disclaimer">By submitting the form, you agree to the disclaimer.
+    <button onclick="disclaimerFunction()" class="dbutton">Disclaimer</button>
+    <script src="disclaimerfunction.js"></script>
+    </div>
+    <div class ="disclaimerInfo">
+      <p id="dInfo"></p>
+    </div>
+      
+    
   </body>
 </html>

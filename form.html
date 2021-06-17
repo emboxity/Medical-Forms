@@ -8,21 +8,22 @@
     <h1 id="title">Medical Forms</h1>
 
     <form id="frm1">
-      First name:
+      First name<span style="color:#FF0066">*</span>:
       <input type="text" name="fname" value="" class="first-name" /><br/>
-      Last name:
+      Last name<span style="color:#ecc8d6">*</span>:
       <input type="text" name="lname" value="" class="last-name" /><br>
-      Age:
+      Age<span style="color:#FF0066">*</span>:
       <input type="number" name="uage" value="" class="user-age" /><br/>
-      Sex:
+      Sex<span style="color:#FF0066">*</span>:
       <input type="text" name="usex" value="Male / Female / Other" class = "user-sex" /><br/>
-      Email:
+      Email<span style="color:#FF0066">*</span>:
       <input type ="text" name="uemail" value = "example@example.com" class = user-email /><br/>
-      Phone Number:
-      <input type = "number" name="unumber" value="XXX-XXX-XXXX" class = user-number /><br/>
+      Phone Number<span style="color:#FF0066">*</span>:
+      <input type = "text" name="unumber" value="XXX-XXX-XXXX" class = user-number /><br/>
     </form>
 
     <p>Click "Submit" When you successfully enter all the information accurately.</p>
+    <p>A red star like this <span style="color:#FF0066">*</span> indicates that the field is required. </p>
 
     <button onclick="submitFuncton()" class="button">Submit</button>
 
@@ -38,5 +39,6 @@
     </div>
 
     <script src="clickfunction.js"></script>
+    <h1 id="bottom">Most questions are required, however some are not required if the patient feels uncomftorable with sharing the information. It is heavily encouraged to complete the full form because they are necessary for the diagnosis.</h1>
   </body>
 </html>

@@ -8,8 +8,6 @@ html, body {
 #title{
     color: black;
     font-family: Arial, sans-serif;
-    /* font-family: Tahoma, sans-serif; */
-    /* font-family: Arial, Helvetica, sans-serif; */
     font-size: 25px;
 }
 #frm1{
@@ -29,7 +27,15 @@ html, body {
     font-weight: bold;
     font-size: 15px;
 }
-  
+#bottom{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-weight: bold; */
+    font-size: 9px; 
+    position: absolute;
+    bottom: 0;
+    left: 0;
+} 
 p{
     color: black;
     font-family: Arial, Helvetica, sans-serif;

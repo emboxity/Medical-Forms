@@ -5,10 +5,10 @@
   <head><link rel="stylesheet" href="style.css"></head>
   <ul>
     <li><a href="https://github.com/emboxity/Medical-Forms">Github</a></li>
-    <li><a href="https://github.com/emboxity/Medical-Forms/blob/main/DISCLAIMER.md">Disclaimer</a></li>
-    </li>
+    <li><a href="https://github.com/emboxity/Medical-Forms/blob/main/DISCLAIMER.md">Disclaimer</a></li></br>
+    </li> 
   </ul>
-  
+
   <body>
     
 
@@ -16,26 +16,28 @@
 
 
     <form id="frm1">
-      First name<span style="color:#FF0000">*</span>:
+      <span style="color:#b0aea7">First name</span><span style="color:#FF0000">*</span>:
       <input type="text" name="fname" value="" class="first-name" /><br/>
-      Last name<span style="color:#FF0000">*</span>:
+      <span style="color:#b0aea7">Last name</span><span style="color:#FF0000">*</span>:
       <input type="text" name="lname" value="" class="last-name" /><br>
-      Age<span style="color:#FF0000">*</span>:
+      <span style="color:#b0aea7">Age</span><span style="color:#FF0000">*</span>:
       <input type="number" name="uage" value="" class="user-age" /><br/>
-      Sex<span style="color:#FF0000">*</span>:
+      <span style="color:#b0aea7">Sex</span><span style="color:#FF0000">*</span>:
       <input type="text" name="usex" value="Male / Female / Other" class = "user-sex" /><br/>
-      Email<span style="color:#FF0000">*</span>:
+      <span style="color:#b0aea7">Email</span><span style="color:#FF0000">*</span>:
       <input type ="text" name="uemail" value = "example@example.com" class = user-email /><br/>
-      Phone Number<span style="color:#FF0000">*</span>:
+      <span style="color:#b0aea7">Phone Number</span><span style="color:#FF0000">*</span>:
       <input type = "text" name="unumber" value="XXX-XXX-XXXX" class = user-number /><br/>
-      Please describe your issue:<span style="color:#FF0000">*</span>:
+      <span style="color:#b0aea7">Please describe your issue:</span><span style="color:#FF0000">*</span>:
       <input type = "text" name="uIssue" value="" class = user-diagnosis /><br/>
     </form>
 
-    <p>Click "Submit" When you successfully enter all the information accurately.</p>
-    <p>A red star like this <span style="color:#FF0000">*</span> indicates that the field is required. </p>
+    <div class ="DiscInfo">
+    <span style="color:#b9b9b9">Click "Submit" When you successfully enter all the information accurately.</span><p></p>
+    <span style="color:#b9b9b9">A red star indicates that the question is required.</span> </p>
+    </div>
 
-    <button onclick="submitFuncton()" class="button">Submit</button>
+    <button onclick="submitFuncton()" class="button"><span style="color:#FFFFFF"></span>Submit</button>
 
     <div class="info">
       <p class="first"></p>
@@ -51,17 +53,15 @@
 
     <script src="clickfunction.js"></script>
     
-    <div class = "footer">By submitting the form, you agree to the disclaimer.<div>
+    
+  
     
 
   
 
     
-    </div>
-    <div class ="disclaimerInfo">
-      <input type="button" id="dButton" value="Disclaimer" onclick="window.location='https://github.com/emboxity/Medical-Forms/blob/main/DISCLAIMER.md'"/>
-    </div>
       
     
   </body>
+  <div class = "footer">By submitting the form, you agree to the disclaimer.<div></div>
 </html>

@@ -1,5 +1,5 @@
 html, body {
-    background-color: #F3F3F3;
+    background-color: #232527;
     width: 100%;
     height:100%;
     margin: 0;
@@ -10,10 +10,21 @@ ul {
     font-size: 15px;
     font-weight: 300;
     list-style-type: none;
-    margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #201c1c;
+}
+#frm1{
+    font-size: 15px;
+    font-family: "HCo Gotham SSm","Helvetica Neue","Helvetica","Arial","Lucida Grande",sans-serif;
+}
+#frm1 input{
+    background-color: #1c2424
+    ;
+}
+.DiscInfo{
+    font-size: 15px;
+    font-family: "HCo Gotham SSm","Helvetica Neue","Helvetica","Arial","Lucida Grande",sans-serif;
 }
   
 li {
@@ -53,32 +64,16 @@ li a:hover {
 }
 
 .footer{
-    position: relative;     
-    text-align: center;    
-    left: 0;
     bottom: 0;
     width: 100%;
-    color: black;
-    font-family: Arial, sans-serif;
-    font-size: 10px;
-    font-weight: bold;
+    position: absolute;     
+    background: #201c1c;
+    padding: 10px 0;
+    color: #fff;
+    font-family: "Source Sans Pro","Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    text-align: center;  
 
-}
-
-.disclaimerInfo{
-    position: relative;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: black;
-    font-family: Arial, sans-serif;
-    font-size: 10px;
-    font-weight: bold;
-}
-#dInfo{
-    color:black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
 }
 
 p{

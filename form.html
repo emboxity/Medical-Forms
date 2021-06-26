@@ -3,9 +3,17 @@
 
 <html>
   <head><link rel="stylesheet" href="style.css"></head>
+  <ul>
+    <li><a href="https://github.com/emboxity/Medical-Forms">Github</a></li>
+    <li><a href="https://github.com/emboxity/Medical-Forms/blob/main/DISCLAIMER.md">Disclaimer</a></li>
+    </li>
+  </ul>
+  
   <body>
     
-    <h1 id="title">Medical Forms</h1>
+
+
+
 
     <form id="frm1">
       First name<span style="color:#FF0000">*</span>:
@@ -20,6 +28,8 @@
       <input type ="text" name="uemail" value = "example@example.com" class = user-email /><br/>
       Phone Number<span style="color:#FF0000">*</span>:
       <input type = "text" name="unumber" value="XXX-XXX-XXXX" class = user-number /><br/>
+      Please describe your issue:<span style="color:#FF0000">*</span>:
+      <input type = "text" name="uIssue" value="" class = user-diagnosis /><br/>
     </form>
 
     <p>Click "Submit" When you successfully enter all the information accurately.</p>
@@ -34,6 +44,7 @@
       <p class = "userSexInfo"></p>
       <p class = "email"></p>
       <p class = "number"></p>
+      <p class = "u-issue"></p>
       <p id="checkInfo"></p><br/>
       
     </div>
@@ -43,12 +54,12 @@
     <div class = "footer">By submitting the form, you agree to the disclaimer.<div>
     
 
-  <input type="button" id="dButton" value="Disclaimer" onclick="dFunction()"/>
-  <script src="disclaimerfunction.js"></script>
+  
+
     
     </div>
     <div class ="disclaimerInfo">
-      <p id="dInfo"></p>
+      <input type="button" id="dButton" value="Disclaimer" onclick="window.location='https://github.com/emboxity/Medical-Forms/blob/main/DISCLAIMER.md'"/>
     </div>
       
     

@@ -2,14 +2,38 @@ html, body {
     background-color: #F3F3F3;
     width: 100%;
     height:100%;
+    margin: 0;
 }
 
-
-#title{
-    color: black;
-    font-family: Arial, sans-serif;
-    font-size: 25px;
+ul {
+    font-family: "Source Sans Pro","Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: rgb(58, 57, 57);
+}
+
+  
+ 
 #frm1{
     width: 500px;
     clear: both;
@@ -27,11 +51,6 @@ html, body {
     font-weight: bold;
     font-size: 15px;
 }
-#dInfo{
-    color:black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
-}
 
 .footer{
     position: relative;     
@@ -44,6 +63,22 @@ html, body {
     font-size: 10px;
     font-weight: bold;
 
+}
+
+.disclaimerInfo{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+}
+#dInfo{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
 }
 
 p{

@@ -1,7 +1,7 @@
 # Medical-Forms
 Fill out the medical forms, and the ai will try to diagnose you!
 
-Project is a WIP and should be out before July.
+Project is a WIP and should be out before August or September.
 
 (Disclaimer)
 
